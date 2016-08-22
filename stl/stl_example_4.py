@@ -27,7 +27,7 @@ df = df.reindex(idx).interpolate()
 print df
 
 
-res = sm.tsa.seasonal_decompose(df.values,freq=24)
+res = sm.tsa.seasonal_decompose(df.values,freq=24*7)
 
 fig, axes = plt.subplots(4, 1, sharex=True, figsize=(20, 10))
 axes[0].plot(res.observed)
