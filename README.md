@@ -9,3 +9,5 @@ some research for different prediction model
         numpy
 
         statsmodels ( https://github.com/statsmodels/statsmodels )
+
+	keras ( theano or tensorflow as backend )
