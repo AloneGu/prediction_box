@@ -10,4 +10,8 @@ some research for different prediction model
 
         statsmodels ( https://github.com/statsmodels/statsmodels )
 
-	keras ( theano or tensorflow as backend )
+	    keras ( theano or tensorflow as backend )
+
+	    xgboost
+
+	    seq2seq
